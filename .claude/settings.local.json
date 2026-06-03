@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(mkdir -p /Users/anubhav.ghosh/blog-next/app/api/posts/pub/\\\\[username\\\\])",
+      "Bash(mkdir -p \"/Users/anubhav.ghosh/blog-next/app/api/posts/pub/[username]/[slug]\")",
+      "Bash(mkdir -p \"/Users/anubhav.ghosh/blog-next/app/api/comments/[postId]\")",
+      "Bash(mkdir -p \"/Users/anubhav.ghosh/blog-next/app/api/comments/mod/[id]\")",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(grep *)"
+    ]
+  }
+}
